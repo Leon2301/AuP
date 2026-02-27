@@ -1,0 +1,7 @@
+[package]
+name = "carsharing"
+version = "0.1.0"
+authors = ["Leon Mantey"]
+edition = "2024"
+
+[dependencies]
