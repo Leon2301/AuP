@@ -1,0 +1,16 @@
+wsl --install
+
+wsl ~
+
+wsl.exe --install -d Ubuntu-24.04
+
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+
+rustup update
+
+sudo apt update
+
+sudo apt install build-essential -y
